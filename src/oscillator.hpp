@@ -24,6 +24,6 @@ class Oscillator
 
   private:
 
-    double level;
-    double position;
+    double level_;
+    double position_;
 };

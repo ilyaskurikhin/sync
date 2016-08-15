@@ -17,6 +17,10 @@ class LinearOscillator : public Oscillator
     double
     caclulateLevel();
 
+    // calculate level from position
+    double
+    calculateLevel(double position);
+
 
   private:
 
